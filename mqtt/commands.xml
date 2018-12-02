@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+<command>
+    <var>What is the temperature in here?</var>
+    <var>what is the temperature</var>
+    <var>temperature</var>
+    <actn>mqtt.actions.subscribe</actn>    
+</command>  
+<command>
+    <var>MQTT app?</var>
+    <var>mqtt app test</var> 
+    <actn>mqtt.actions.mqttTest</actn>
+</command>
+</commands>

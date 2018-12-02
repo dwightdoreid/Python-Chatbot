@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+<command>
+    <var>what time is it?</var>
+    <var>what is the time</var>
+    <var>time</var>
+    <actn>basic.actions.getTime</actn>
+    
+</command>  
+<command>
+    <var>what day is today?</var>
+    <var>what day is it</var>
+    <var>day</var>
+    <var>today</var>  
+    <actn>basic.actions.getDay</actn>
+</command>
+<command>
+    <var>what is my ip</var>
+    <var>ip address</var>
+    <var>ip</var> 
+    <actn>basic.actions.getIP</actn>
+</command>
+</commands>
