@@ -48,21 +48,23 @@ Each command has several variations and one action.
 
 An example of the commands.xml file is shown below:
 
-<pre><?xml version="1.0" encoding="UTF-8"?>
-<commands>
-<command>
-    <var>What is the temperature in here?</var>
-    <var>what is the temperature</var>
-    <var>temperature</var>
-    <actn>mqtt.actions.subscribe</actn>
-</command>  
-<command>
-    <var>what is your name?</var>
-    <var>name</var> 
-    <actn>2</actn>
-</command>
-</commands>
+<pre>
+&lt?xml version="1.0" encoding="UTF-8"?&gt
+&ltcommands&gt
+&ltcommand&gt
+    &ltvar&gtWhat is the temperature in here?&lt/var&gt
+    &ltvar&gtwhat is the temperature&lt/var&gt
+    &ltvar&gttemperature&lt/var&gt
+    &ltactn&gtmqtt.actions.subscribe&lt/actn&gt
+&lt/command&gt  
+&ltcommand&gt
+    &ltvar&gtwhat is your name?&lt/var&gt
+    &ltvar&gtname&lt/var&gt 
+    &ltactn&gt2&lt/actn&gt
+&lt/command&gt
+&lt/commands&gt
 </pre>
+
 
 ### The actions.py file
 
